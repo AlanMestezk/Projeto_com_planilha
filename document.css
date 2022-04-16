@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    
+}
+
+body{
+    margin: auto;
+    width: 60%;
+    font-family: sans-serif;
+    background-color: rgb(3, 33, 71);
+    color: aliceblue;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius:30px;
+    margin-top: 10px;
+}
+
+header ul li{
+    list-style: none;
+}
+
+section form ul li{
+    list-style: none;
+}
+
+section form ul li label{
+    font-size: 18px;
+}
+
+section{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    font-size:medium;
+}
+
+section button{
+    margin: 5px;
+    font-size: 20px;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 25px;
+}
